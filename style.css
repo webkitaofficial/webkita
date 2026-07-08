@@ -1,34 +1,89 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #0b0b0b;
-    color: white;
-    text-align: center;
+body{
+    margin:0;
+    padding:0;
+    background:#0b0b0b;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.6;
 }
 
-h1 {
-    color: #d4af37;
-    font-size: 45px;
-    margin-top: 40px;
+nav{
+    background:#111;
+    padding:20px;
+    text-align:center;
+    border-bottom:2px solid #d4af37;
 }
 
-h2 {
-    color: white;
+nav h2{
+    color:#d4af37;
+    margin:0;
+    font-size:30px;
 }
 
-p, li {
-    font-size: 18px;
+.hero{
+    padding:80px 20px;
+    text-align:center;
 }
 
-section {
-    padding: 30px;
+.hero h1{
+    font-size:48px;
+    color:#d4af37;
+    margin-bottom:10px;
 }
 
-button {
-    background: #d4af37;
-    color: black;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 20px;
-    font-weight: bold;
+.hero h2{
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    font-size:18px;
+}
+
+button{
+    background:#d4af37;
+    color:black;
+    border:none;
+    padding:15px 35px;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:25px;
+}
+
+button:hover{
+    background:#f5d76e;
+}
+
+section{
+    padding:60px 25px;
+    text-align:center;
+}
+
+section h2{
+    color:#d4af37;
+    font-size:36px;
+}
+
+.card{
+    background:#171717;
+    border:1px solid #d4af37;
+    border-radius:15px;
+    padding:25px;
+    margin:20px auto;
+    max-width:700px;
+}
+
+.card h3{
+    color:#d4af37;
+}
+
+footer{
+    background:#111;
+    padding:25px;
+    text-align:center;
+    border-top:2px solid #d4af37;
 }
